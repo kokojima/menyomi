@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<div class="background">
+<head>
+    <meta http-equiv="content-type" charset="UTF-8">
+    <meta name ="description" content="あなたの好きな麺類を当てる">
+    <title>メンヨミ|あなたの好きな麺類を当てる</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/favicon.ico">
+</head>
+<body> 
+    <header id="header">
+        <div id="titleLogo">
+            <a href="http://lire-en-francais.sakura.ne.jp/menyomi/top.html">
+            <img src="./img/menlogo.png" height="80">
+            </a>
+        </div>
+        <div>
+        <a>4つの質問に答えてくれれば、あなたの好きな麺類を当てましょう</a>
+        </div>
+    </header>
+    <div class="flex">
+        <div id="face">
+            <img src="./img/menyomiChar3.png"  alt="charDefault" width="100" id="ojiFace">
+            <div class="balloon1-left" id="bubble">
+                <h4></h4>
+                <tr>
+                    <td><button id="btn_yes">そう</button></td><br>
+                    <td><button id="btn_no">ちがう</button></td>
+                </tr>
+                <a id="guess">あなたの頭に浮かんでいる麺類は、</a>
+                <h3></h3>
+            </div>
+        </div>
+    </div>
+<button type="submit" id="btn_start">PLAY</button>
+<button id="reset">BACK</button>
+    <footer id="footer">
+        <p>&copy; 2022 Kohei KOJIMA</p>
+    </footer>
+<script src="main.js"></script>
+</body>
+</div>
+</html>
