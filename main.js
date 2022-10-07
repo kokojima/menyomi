@@ -28,13 +28,11 @@ diagnosis = [
   "焼きそば",
   "わかりません...",
 ];
-
 //イベント処理を実行するメソッドの設定
 document.querySelector("#btn_start").addEventListener("click", getStart);
 document.querySelector("#btn_yes").addEventListener("click", yesCount);
 document.querySelector("#btn_no").addEventListener("click", noCount);
 document.querySelector("#reset").addEventListener("click", reStart);
-
 //DOMの設定
 let q = document.querySelector("h4");
 let result = document.querySelector("h3");
@@ -63,9 +61,9 @@ function getStart() {
 }
 
 //診断成功時イラスト
-successPic = "./img/menyomiDoya.png";
+successPic = "./img/menyomiDoya.webp";
 //診断失敗時イラスト
-failPic = "./img/menojiGaan.png";
+failPic = "./img/menojiGaan.webp";
 
 //結果判定表示用の関数
 function finalResult(x) {
